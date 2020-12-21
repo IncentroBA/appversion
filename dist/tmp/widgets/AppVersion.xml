@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.appversion.AppVersion" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>App Version</name>
+    <description>Shows version of app which also can be put in a attribute.</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="appVersion" type="string" defaultValue="1.3.6">
+                <caption>App Version</caption>
+                <description>Set app version number.</description>
+            </property>
+            <property key="backendVersion" type="attribute" required="false">
+                <caption>Backend version</caption>
+                <description>Object that contains backend app version constant.</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="updateFlow" type="action" required="false">
+                <caption>Update action</caption>
+                <description>Nanoflow to call when backend version is higher then app version.</description>
+            </property>
+            <property key="noUpdateFlow" type="action" required="false">
+                <caption>No update action</caption>
+                <description>Nanoflow to call when no update is available.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

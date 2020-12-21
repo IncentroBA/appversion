@@ -1,2 +1,17 @@
-# appversion
-Create a local appversion variable, which can be compared against the backend to for instance block users when app is not updated.
+## AppVersion
+[Shows version of app which also can be put in a attribute.]
+
+## Features
+[feature highlights]
+
+## Usage
+[step by step instructions]
+
+## Demo project
+[link to sandbox]
+
+## Issues, suggestions and feature requests
+[link to GitHub issues]
+
+## Development and contribution
+[specify contribute]
