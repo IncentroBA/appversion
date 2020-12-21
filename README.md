@@ -23,4 +23,4 @@ Not available yet.
 https://github.com/IncentroBA/appversion/issues
 
 ## Development and contribution
-[Bart Onstee] (https://github.com/bartonstee)
+[Bart Onstee](https://github.com/bartonstee)
